@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Media Queries</title>
+        <style>
+            /* hsl: hue,saturation,lightness */
+            .container {
+                margin: 0 auto;
+                background: green;
+                box-sizing: border-box;
+            }
+            /* smartphones(portrait and landscape)---------*/
+            @media screen and (min-width:767px) {
+                .container {
+                    width: 100%;
+                    padding: 5px 10px;
+                }
+                
+            }
+            /*Low resolution desktops and laptops-----*/
+            @media screen and (min-width: 1024px) {
+                .container {
+                    width: 980px;
+                    padding: 5px 15px;
+                }
+            }
+            /* High resolution Desktops and laptops------*/
+            @media screen and (min-width: 1024px) {
+                .container {
+                    width: 980px;
+                    padding: 5px 20px;
+                }
+            }
+        </style>
+     </head>
+    <body>
+        <div class="container">
+        <p>Java is a multi-platform, object-oriented, and network-centric language 
+            that can be used as a platform in itself. It is a fast, secure, reliable 
+            programming language for coding everything from mobile apps and enterprise 
+            software to big data applications and server-side technologies.
+
+        </p>
+    </div>
+       
+    </body>
+</html>
